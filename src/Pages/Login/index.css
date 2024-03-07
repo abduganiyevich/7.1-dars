@@ -1,0 +1,53 @@
+.login-wrapper{
+    width: 350px;
+    padding: 25px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px lightgray;
+    /* display: none; */
+}
+
+.login-wrapper .input-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-wrapper h1{
+    color: #3AAF9F;
+}
+
+.login-wrapper .input-wrapper input,button{
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.login-wrapper .input-wrapper button{
+    cursor: pointer;
+    background-color: #3AAF9F;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition:all 0.2s ;
+}
+
+.login-wrapper .input-wrapper button:hover{
+    background-color: #27dd4c;
+}
+
+.login-wrapper .login-img img{
+    width: 100px;
+    border-radius: 50%;
+}

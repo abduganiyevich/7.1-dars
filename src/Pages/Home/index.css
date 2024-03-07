@@ -1,0 +1,78 @@
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EBEBEB;
+    width: 500px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 5px lightgray;
+}
+
+.main-wrapper h1{
+    color:#00BB31;
+}
+
+.main-wrapper p{
+    color: #160000;
+    font-weight: 500;
+}
+.add-book input{
+padding: 10px;
+border-radius:5px;
+margin-right: 10px;
+width: 280px;
+outline-color: limegreen;
+border: 1px solid lightgreen;
+background-color: #c2cfc6;
+}
+.add-book button{
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    background-color:aliceblue;
+    color: rgb(0, 60, 255);
+    font-weight: 700;
+}
+
+.add-book button:hover{
+    background-color: blanchedalmond;
+}
+.add-book span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #00BB31;
+}
+
+.list-item{
+    margin-top: 15px;
+}
+
+.list-item h2{
+    color: #00BB31;
+}
+
+.list-item ul li{
+    list-style: none;
+    font-size: 20px;
+    width:350px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.list-item button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 25px;
+}
